@@ -1,0 +1,15 @@
+D:\anaconda\envs\rag_qa\lib\site-packages\jieba\_compat.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\1\AppData\Local\Temp\jieba.cache
+Loading model cost 0.370 seconds.
+Prefix dict has been built successfully.
+==================================================
+RAG 智能问答系统 (TF-IDF + Qwen2)
+==================================================
+已加载 3 个文档
+已构建索引，共 8 个文本块
+Traceback (most recent call last):
+  File "D:\RAG_QA_Project\rag_system.py", line 188, in <module>
+    print("\n\U0001f4ac 问答测试：输入问题，AI 将基于文档生成答案")
+UnicodeEncodeError: 'gbk' codec can't encode character '\U0001f4ac' in position 2: illegal multibyte sequence
